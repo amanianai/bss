@@ -12400,3 +12400,25 @@ html.full-page-slider body {
     margin-left: 7rem;
   }
 }
+
+
+/* custom */
+
+.sectionHeading.-lg .sectionHeading__title {
+    line-height: 1.1;
+    font-weight: 500;
+    font-size: 3.25rem;
+}
+
+
+.sliderMain.-type-3 .slider__title {
+  font-size: 3vw;
+}
+
+.header__logo__dark {
+  max-height: 50px;
+}
+
+.header__logo div, .header__logo img {
+  width: auto;
+}
