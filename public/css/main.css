@@ -12407,18 +12407,57 @@ html.full-page-slider body {
 .sectionHeading.-lg .sectionHeading__title {
     line-height: 1.1;
     font-weight: 500;
-    font-size: 3.25rem;
 }
 
 
 .sliderMain.-type-3 .slider__title {
-  font-size: 3vw;
+  font-size: 1.5vw;
 }
 
 .header__logo__dark {
-  max-height: 50px;
+  max-height: 100px;
 }
 
 .header__logo div, .header__logo img {
   width: auto;
+}
+
+body {
+  background: #EEECDE;
+}
+
+section.border-top {
+  border-top: 2px solid #222;
+  padding: 75px 0;
+  margin-top: 150px;
+}
+
+.header.-sticky-initial.-sticky-light .header__bar, .header.is-sticky.-sticky-light .header__bar {
+    background: #EEECDE;
+}
+
+.-transparent {
+    background: transparent !important;
+}
+
+.button.-outline-white, .button.-outline-black, .button.-white, .button.-black {
+    text-align: center;
+    border-radius: .125rem;
+}
+.button.-md {
+    min-width: 8.25rem;
+    padding: .5rem 1.5rem;
+    font-size: .75rem;
+    line-height: 1;
+    font-weight: 500;
+    text-transform: capitalize;
+    letter-spacing: 0.03em;
+}
+.text-white {
+    /* color: #FFFFFF; */
+}
+
+.header__bar ul li {
+  font-size: 70%;
+  font-weight: 500;
 }
