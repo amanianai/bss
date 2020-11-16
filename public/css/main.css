@@ -749,7 +749,7 @@ html {
 
 @media (min-width: 1800px) {
   html {
-    font-size: 0.92vw;
+    font-size: 0.8vw;
   }
 }
 
@@ -12404,14 +12404,9 @@ html.full-page-slider body {
 
 /* custom */
 
-.sectionHeading.-lg .sectionHeading__title {
-    line-height: 1.1;
-    font-weight: 500;
-}
-
-
 .sliderMain.-type-3 .slider__title {
   font-size: 1.5vw;
+  line-height: 1.9vw;
 }
 
 .header__logo__dark {
@@ -12426,9 +12421,24 @@ body {
   background: #EEECDE;
 }
 
+.bg-texture {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
 section.border-top {
   border-top: 2px solid #222;
-  padding: 75px 0;
+  padding: 150px 0;
   margin-top: 150px;
 }
 
@@ -12457,7 +12467,16 @@ section.border-top {
     /* color: #FFFFFF; */
 }
 
-.header__bar ul li {
+.header__bar ul li a {
   font-size: 70%;
   font-weight: 500;
+  color: #654321;
+}
+
+
+.sectionHeading.-xl .sectionHeading__title,
+.sectionHeading.-lg .sectionHeading__title,
+.sectionHeading.-md .sectionHeading__title,
+.sectionHeading.-sm .sectionHeading__title {
+    font-weight: 500;
 }
