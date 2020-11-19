@@ -9285,6 +9285,9 @@ ul.values li {
   font-size: 16px;
 }
 
+.wall-wrapper {
+    max-width: 1250px;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -9317,7 +9320,7 @@ ul.values li {
       left: 55%;
       right: 45%;
       margin-bottom: 40px;
-      margin-top: 140px;
+      margin-top: 100px;
 
     }
 
