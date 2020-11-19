@@ -9245,10 +9245,11 @@ ul.inline li {
 }
 
 .site-branding {
-  width: 220px;
+  width: 200px;
   padding: 0px;
   border-radius: 4px;
   padding: 10px;
+  top: 3vh;
 }
 
 .site-branding img.logo-symbol {
@@ -9271,22 +9272,33 @@ ul.inline li {
 }
 
 .wall-project {
-    margin-bottom: 20px;
+    margin-bottom: 0px;
     margin-top: 20px;
     margin-right: 50px;
 }
 
 ul.values {
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 ul.values li {
-  line-height: 22px;
+  line-height: 24px;
   font-size: 16px;
+  color: #333;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 500;
 }
 
 .wall-wrapper {
     max-width: 1250px;
+}
+
+.tagline {
+  letter-spacing: 3px;
+  word-spacing: 0px;
+  margin-top: 40px;
+  color: #D38D4C;
+  font-weight: 500;
 }
 
 
