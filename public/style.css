@@ -9175,31 +9175,29 @@ body {
   background: #EEECDE;
 }
 
-.wrapper {
-  /*position: absolute;
-  width: auto;
-  top: 20%;
-  left: 40%;*/
+.symbol {
+  margin-bottom: 40px;
+  margin-top: 80px;
 }
 
-.symbol .wrapper {
+.symbol-wrapper {
   border: 2px solid #333;
   display: inline-block;
-  padding: 40px 20px 10px 20px;
+  padding: 10px 20px;
   text-align: center;
   border-radius: 4px;
   /*opacity: .2;*/
 }
 
 .symbol h1 {
-  font-size: 8rem;
-  line-height: 8rem;
+  font-size: 5rem;
+  line-height: 5rem;
   margin: 0;
 }
 
 .symbol h1,
 .symbol p {
-  display: inline-block;
+  margin: 0;
 }
 
 .symbol .id {
@@ -9207,16 +9205,17 @@ body {
   letter-spacing: 2px;
   color: #111;
   font-weight: 500;
+  margin: 0;
 
 }
 
 .symbol .name {
   font-family: 'IM Fell English', serif;
   text-decoration: italic;
-  font-size: 1.7rem;
+  font-size: 1.3rem;
   color: #111;
   font-weight: lighter;
-  margin-top: 30px;
+  margin-top: 0px;
 }
 
 .wall .project-image img, .wall .project-image video {
@@ -9234,9 +9233,46 @@ ul.inline li {
   font-weight: 300;
 }
 
+.site-branding {
+  width: 220px;
+  padding: 0px;
+  border-radius: 4px;
+  padding: 10px;
+}
 
+.site-branding img.logo-symbol {
+  width: 75px;
+  margin-bottom: 10px;
+  display: table;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  margin-top: -30px;
+}
 
+.wall .title {
+    font-size: 30px;
+    line-height: 40px;
+    color: #121212;
+    overflow: hidden;
+    position: relative;
+    font-weight: 500;
+    z-index: -1;
+}
 
+.wall-project {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+
+ul.values {
+  margin-top: 30px;
+}
+
+ul.values li {
+  line-height: 22px;
+  font-size: 16px;
+}
 
 
 
