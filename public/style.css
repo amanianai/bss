@@ -9308,8 +9308,8 @@ ul.values li {
 
 
 .wall .title {
-    font-size: 20px;
-    line-height: 30px;
+    font-size: 16px;
+    line-height: 22px;
     color: #121212;
     overflow: hidden;
     position: relative;
@@ -9320,7 +9320,7 @@ ul.values li {
 
   .wall-project {
       margin-bottom: 0px;
-      margin-top: 5px;
+      margin-top: 0px;
       margin-right: 10px;
     }
 
@@ -9332,8 +9332,9 @@ ul.values li {
   .symbol {
       display: table;
       left: 65%;
+      right: 35%;
       margin-bottom: 40px;
-      margin-top: 120px;
+      margin-top: 90px;
 
     }
 
@@ -9369,6 +9370,19 @@ ul.values li {
       border-radius: 4px;
       padding: 10px;
   }
+
+
+ul.values {
+  margin-top: 20px;
+}
+
+ul.values li {
+  line-height: 20px;
+  font-size: 14px;
+  color: #333;
+  font-family: 'Archivo', sans-serif;
+  font-weight: 500;
+}
 }
 
 
