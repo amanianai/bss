@@ -9227,6 +9227,7 @@ body {
     top: -30px;
     right: 50px;
     height: 90px;
+    filter: brightness(0) invert(1);
   }
 
 .wall .project-image img, .wall .project-image video {
@@ -9358,6 +9359,7 @@ ul.values li {
       top: -27px;
       right: -25px;
       height: 70px;
+
     }
 
 
